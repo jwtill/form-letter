@@ -1,7 +1,8 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     const nameInput = $("input#name").val();
-    $(".greeting").append("blah")
+
+    $(".greeting").text(nameInput);
     event.preventDefault();
   
   });
