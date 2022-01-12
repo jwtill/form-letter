@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $(".greeting").text(nameInput);
     event.preventDefault();
+    $(".story").show();
   
   });
-  $()
 });
